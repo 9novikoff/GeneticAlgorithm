@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Folder Include="bin\Debug\net8.0\" />
+      <Folder Include="Builder\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Include="bin\Debug\net8.0\berlin52.tsp" />
+    </ItemGroup>
+
+</Project>
